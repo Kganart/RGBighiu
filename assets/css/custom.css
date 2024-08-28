@@ -59,9 +59,10 @@ section{
 h2{
 font-family: Lancelot;
   width: 100%;
-  font-size: 28px;
+  font-size: 32px;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
+transform: translateY(-50px);
   transform: translateZ(50px);
 }
