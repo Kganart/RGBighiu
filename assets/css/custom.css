@@ -63,7 +63,6 @@ border-bottom: 1rem
   background-color: transparent;
   width: 350px;
   height: 600px;
-  border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 .card{
@@ -75,8 +74,6 @@ border-bottom: 1rem
   transform-style: preserve-3d;
 }
 .card-back{
-  background-color: #2980b9;
-  color: white;
   transform: rotateY(180deg);
 }
 .card-front, .card-back{
