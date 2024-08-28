@@ -38,6 +38,7 @@ section{
   transform-style: preserve-3d;
   width: 350px;
   height: 600px;
+border-bottom: 1rem
   border-radius: 20px;
   display: -webkit-box;
   display: -moz-box;
