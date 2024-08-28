@@ -29,6 +29,9 @@ section{
     justify-content: center;
     align-items: center;*/
 }
+.card-box{
+	aspect-ratio: 1 / 1;
+}
 .text__glitch{
   font-size: 30px;
   letter-spacing: 1px;
