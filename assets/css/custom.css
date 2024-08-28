@@ -70,9 +70,17 @@ font-family: Lancelot;
 transform: translateY(-50px);
   transform: translateZ(50px);
 }
+.rotate-vert-left {
+	-webkit-animation: rotate-vert-center 4s ease-in-out infinite both;
+	        animation: rotate-vert-center 4s ease-in-out infinite both;
+}
 .rotate-vert-center {
 	-webkit-animation: rotate-vert-center 5s ease-in-out infinite both;
 	        animation: rotate-vert-center 5s ease-in-out infinite both;
+}
+.rotate-vert-right {
+	-webkit-animation: rotate-vert-center 6s ease-in-out infinite both;
+	        animation: rotate-vert-center 6s ease-in-out infinite both;
 }
 @-webkit-keyframes rotate-vert-center {
   0% {
