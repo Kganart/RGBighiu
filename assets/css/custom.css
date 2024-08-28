@@ -57,6 +57,7 @@ section{
   background: linear-gradient(to right, #cb2d3e, #ef473a);
 }
 h2{
+    top: -50px;
 font-family: Lancelot;
   width: 100%;
   font-size: 32px;
