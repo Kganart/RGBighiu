@@ -29,7 +29,7 @@ section{
   text-transform: Uppercase;
 }
 .box{
-  transform: translateZ(20px);
+  transform: translateZ(15px);
   transform-style: preserve-3d;
   width: 350px;
   height: 600px;
