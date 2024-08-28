@@ -75,8 +75,9 @@ border-bottom: 1rem
   transform-style: preserve-3d;
 }
 .card-back{
-  background: url(assets/images/tarotbackexample.jpg) no-repeat center center;
-    z-index: -1;
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
 }
 .card-front .card-back{
   position: absolute;
@@ -84,7 +85,6 @@ border-bottom: 1rem
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-}
 }
 h2{
     top: -50px;
