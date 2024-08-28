@@ -96,28 +96,28 @@ transform: translateY(-50px);
   transform: translateZ(50px);
 }
 .rotate-card-left {
-	-webkit-animation: rotate-card 4s ease-in-out infinite both;
-	        animation: rotate-card 4s ease-in-out infinite both;
+	-webkit-animation: rotate-card 4s ease-in-out 1s infinite both;
+	        animation: rotate-card 4s ease-in-out 1s infinite both;
 }
 .rotate-card-center {
-	-webkit-animation: rotate-card 5s ease-in-out infinite both;
-	        animation: rotate-card 5s ease-in-out infinite both;
+	-webkit-animation: rotate-card 4s ease-in-out 2s infinite both;
+	        animation: rotate-card 4s ease-in-out 2s infinite both;
 }
 .rotate-card-right {
-	-webkit-animation: rotate-card 6s ease-in-out infinite both;
-	        animation: rotate-card 6s ease-in-out infinite both;
+	-webkit-animation: rotate-card 4s ease-in-out 3s infinite both;
+	        animation: rotate-card 4s ease-in-out 3s infinite both;
 }
 .rotate-vert-left {
-	-webkit-animation: rotate-vert-center 4s ease-in-out infinite both;
-	        animation: rotate-vert-center 4s ease-in-out infinite both;
+	-webkit-animation: rotate-vert-center 4s ease-in-out 1s infinite both;
+	        animation: rotate-vert-center 4s ease-in-out 1s infinite both;
 }
 .rotate-vert-center {
-	-webkit-animation: rotate-vert-center 5s ease-in-out infinite both;
-	        animation: rotate-vert-center 5s ease-in-out infinite both;
+	-webkit-animation: rotate-vert-center 4s ease-in-out 2s infinite both;
+	        animation: rotate-vert-center 4s ease-in-out 2s infinite both;
 }
 .rotate-vert-right {
-	-webkit-animation: rotate-vert-center 6s ease-in-out infinite both;
-	        animation: rotate-vert-center 6s ease-in-out infinite both;
+	-webkit-animation: rotate-vert-center 4s ease-in-out 3s infinite both;
+	        animation: rotate-vert-center 4s ease-in-out 3s infinite both;
 }
 
 @-webkit-keyframes rotate-card {
