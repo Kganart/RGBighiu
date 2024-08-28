@@ -1,4 +1,4 @@
-let cards = document.querySelectorAll('.box');
+let cards = document.querySelectorAll('.boxa');
 
 document.addEventListener('mousemove', function (e) {
   let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
