@@ -118,11 +118,7 @@ h2{
 }
 
 .overall{
-	transform: translateX(0);
-	left: 0;
-	width: 95%;
-	z-index: -2;
-	background-color: #545454;
+	background-color: #f2f0efa3;
 }
 /* Mandala Positions */
 .mandalaLHS1 {
