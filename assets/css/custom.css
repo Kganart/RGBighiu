@@ -96,21 +96,47 @@ width: 100%;
   backface-visibility: hidden;
 }
 h2{
-    top: -50px;
-font-family: Lancelot;
-  width: 100%;
-  font-size: 32px;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-transform: translateY(-50px);
-  transform: translateZ(50px);
+	top: -50px;
+	font-family: Lancelot;
+	 width: 100%;
+	font-size: 32px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transform: translateY(-50px);
+	transform: translateZ(50px);
 }
-
-/* Spinning */
+/* Mandala Positions */
+.mandalaLHS1 {
+	left:-20vw
+	height: 50vh;
+	width: 50vh;
+	top: 10vh;
+}
+.mandalaLHS2 {
+	left:-20vw
+	height: 50vh;
+	width: 50vh;
+	top: 40vh;
+}
+.mandalaRHS1 {
+	right:-20vw
+	height: 50vh;
+	width: 50vh;
+	top: 20vh;
+}
+.mandalaRHS2 {
+	right:-20vw
+	height: 50vh;
+	width: 50vh;
+	top: 70vh;
+}
+/* Mandala Spinning */
 
 .mandala {
-	animation-duration: 3s;
+	animation-timing-function: linear;
+	position: fixed;
+	animation-duration: 45s;
 	animation-iteration-count: infinite;
 	animation-play-state: running;
 	animation-name: mandalaRo;
