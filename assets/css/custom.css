@@ -116,8 +116,17 @@ h2{
 	transform: translateY(-50px);
 	transform: translateZ(50px);
 }
+
+.overall{
+	transform: translateX(0);
+	left: 0;
+	width: 95%;
+	z-index: -2;
+	background-color: #545454;
+}
 /* Mandala Positions */
 .mandalaLHS1 {
+	z-index: -2;
 	position: fixed;
 	left: -12%;
 	height: 50%;
@@ -125,6 +134,7 @@ h2{
 	top: 60%;
 }
 .mandalaRHS1 {
+	z-index: -2;
 	transform: translateX(0);
 	position: fixed;
 	right: -80%;
@@ -133,7 +143,7 @@ h2{
 	top: 15%;
 }
 .mandalaRHS2 {
-	
+	z-index: -2;
 	position: fixed;
 	right:-800%;
 	height: 40%;
