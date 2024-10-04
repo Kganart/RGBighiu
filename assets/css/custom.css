@@ -145,30 +145,69 @@ h2{
 	width: auto;
 	top: 70%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
 		height: 35%;
 	}
+	.mandalaLHS1,.mandalaLHS2{
+		left: -18%;
+	}
+	mandalaRHS1,.mandalaRHS2 {
+		right: -18%;
+	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
 		height: 32%;
+	}
+	.mandalaLHS1,.mandalaLHS2{
+		left: -22%;
+	}
+	mandalaRHS1,.mandalaRHS2 {
+		right: -22%;
 	}
 }
 @media (max-width: 515px) {
 	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
 		height: 28%;
-	} 
+	}
+
+	.mandalaLHS1,.mandalaLHS2{
+		left: -30%;
+	}
+	mandalaRHS1,.mandalaRHS2 {
+		right: -30%;
+	}
 }
-@media (max-width: 420px) {
+@media (max-width: 430px) {
+	.mandalaLHS1,.mandalaLHS2{
+		left: -30%;
+	}
+	mandalaRHS1,.mandalaRHS2 {
+		right: -30%;
+	}
+}
+@media (max-width: 425px) {
 	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
-		height: 20%;
-	} 
+		height: 28%;
+	}
+	.mandalaLHS1,.mandalaLHS2{
+		left: -36%;
+	}
+	mandalaRHS1,.mandalaRHS2 {
+		right: -36%;
+	}
 }
 @media (max-width: 400px) {
 	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
-		height: 16%;
-	} 
+		height: 32%;
+	}
+	.mandalaLHS1,.mandalaLHS2{
+		left: -28%;
+	}
+	mandalaRHS1,.mandalaRHS2 {
+		right: -28%;
+	}
 }
 /* Mandala Spinning */
 
