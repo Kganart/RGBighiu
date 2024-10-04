@@ -22,6 +22,14 @@ body{
 a:hover.dropdown-item {
     background-color: #EFF0F2;
 }
+.navbar {
+    font-weight: 900;
+    background-color: #010101ad;
+    color: #fff;
+}
+a.nav-link {
+    color: #F2F0EF;
+}
 section{
     width: 100%;
     min-height: 100vh;
