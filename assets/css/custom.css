@@ -118,27 +118,19 @@ h2{
 }
 /* Mandala Positions */
 .mandalaLHS1 {
-		transform: translateX(0);
-	    position: fixed;
-	    left: -12%;
-	    height: 40%;
-	    width: auto;
-	    top: 5%;
-}
-.mandalaLHS2 {
 	position: fixed;
 	left: -12%;
-	height: 40%;
+	height: 50%;
 	width: auto;
-	top: 93%;
+	top: 60%;
 }
 .mandalaRHS1 {
 	transform: translateX(0);
 	position: fixed;
 	right: -80%;
-	height: 40%;
+	height: 60%;
 	width: auto;
-	top: 10%;
+	top: 15%;
 }
 .mandalaRHS2 {
 	
@@ -148,90 +140,113 @@ h2{
 	width: auto;
 	top: 70%;
 }
+
 @media (max-width: 1024px) {
-	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
-		height: 35%;
-		width: auto;
+	.mandalaLHS1 {
+		height: 50%;
 	}
-	.mandalaLHS1,.mandalaLHS2{
-		left: -18%;
+	.mandalaLHS1{
+		height: 45%;
 	}
-	mandalaRHS1,.mandalaRHS2 {
-		right: -100%;
+	.mandalaRHS2 {
+		height: 33%;
 	}
 }
 @media (max-width: 768px) {
-	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
-		height: 32%;
+	.mandalaLHS1 {
+		height: 50%;
 	}
-	.mandalaLHS1,.mandalaLHS2{
-		left: -22%;
+	.mandalaLHS1{
+		height: 45%;
 	}
-	.mandalaRHS1,.mandalaRHS2 {
-		right: -100%;
+	.mandalaRHS2 {
+		height: 33%;
 	}
 }
 @media (max-width: 515px) {
-	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
-		height: 28%;
-		width: auto;
+	.mandalaLHS1 {
+		height: 50%;
 	}
-
-	.mandalaLHS1,.mandalaLHS2{
-		left: -30%;
+	.mandalaLHS1{
+		height: 45%;
 	}
-	.mandalaRHS1,.mandalaRHS2 {
-		right: -100%;
+	.mandalaRHS2 {
+		height: 33%;
 	}
 }
 @media (max-width: 430px) {
-	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
-		height: 28%;
+	.mandalaLHS1 {
+		height: 50%;
 	}
-	.mandalaLHS1,.mandalaLHS2{
-		left: -30%;
+	.mandalaLHS1{
+		height: 45%;
 	}
-	.mandalaRHS1,.mandalaRHS2 {
-		right: -100%;
+	.mandalaRHS2 {
+		height: 33%;
 	}
 }
 @media (max-width: 425px) {
-	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
-		height: 28%;
-		width: auto;
+	.mandalaLHS1 {
+		height: 50%;
 	}
-	.mandalaLHS1,.mandalaLHS2{
-		left: -36%;
+	.mandalaLHS1{
+		height: 45%;
 	}
-	.mandalaRHS1,.mandalaRHS2 {
-		right: -100%;
+	.mandalaRHS2 {
+		height: 33%;
 	}
 }
 @media (max-width: 400px) {
-	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
-		height: 32%;
-		width: auto;
+	.mandalaLHS1 {
+		height: 50%;
 	}
-	.mandalaLHS1,.mandalaLHS2{
-		left: -28%;
+	.mandalaLHS1{
+		height: 45%;
 	}
-	.mandalaRHS1,.mandalaRHS2 {
-		right: -100%;
+	.mandalaRHS2 {
+		height: 33%;
 	}
 }
 /* Mandala Spinning */
 
-.mandala {
+.mandala1 {
 	width: 100%;
 	height: 100%;
 	animation-timing-function: linear;
-	animation-duration: 45s;
+	animation-duration: 35s;
+	animation-direction: normal;
 	animation-iteration-count: infinite;
 	animation-play-state: running;
 	animation-name: mandalaRo;
 }
-.mandala:hover {
-	animation-play-state: paused;
+.mandala1:hover {
+	animation-direction: reverse;
+}
+.mandala2 {
+	width: 100%;
+	height: 100%;
+	animation-timing-function: linear;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+	animation-play-state: running;
+	animation-name: mandalaRo;
+}
+.mandala2:hover {
+	animation-direction: normal;
+}
+.mandala3 {
+	width: 100%;
+	height: 100%;
+	animation-timing-function: linear;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-play-state: running;
+	animation-name: mandalaRo;
+}
+.mandala3:hover {
+	animation-direction: reverse;
 }
 
 
