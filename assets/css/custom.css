@@ -31,7 +31,7 @@
 	}
 	@keyframes typewriter{
 	  	0%,10%{width: 0;}
-	  	30%,85%{width: 5em;}
+	  	30%,85%{width: 6em;}
 	  	100%{width: 0;}
 	}
 }
