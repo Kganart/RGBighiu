@@ -12,6 +12,14 @@ body{
 	background: #EFF1F2;
 	font-family: "Lancelot", serif;
 }
+ul.dropdown-menu.show {
+    border-color: #545454;
+    background-color: #00000017;
+}
+a.dropdown-item {
+    font-weight: 600;
+    color: #ffffff;
+}
 .dropdown-menu{
 	min-width: 2rem;
 }
