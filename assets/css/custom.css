@@ -130,12 +130,12 @@ h2{
 	left: -12%;
 	height: 40%;
 	width: auto;
-	top: 55%;
+	top: 93%;
 }
 .mandalaRHS1 {
 	transform: translateX(0);
 	position: fixed;
-	right: -12%;
+	right: -80%;
 	height: 40%;
 	width: auto;
 	top: 10%;
@@ -143,7 +143,7 @@ h2{
 .mandalaRHS2 {
 	
 	position: fixed;
-	right:-12%;
+	right:-800%;
 	height: 40%;
 	width: auto;
 	top: 70%;
@@ -157,7 +157,7 @@ h2{
 		left: -18%;
 	}
 	mandalaRHS1,.mandalaRHS2 {
-		right: -18%;
+		right: -100%;
 	}
 }
 @media (max-width: 768px) {
@@ -168,7 +168,7 @@ h2{
 		left: -22%;
 	}
 	.mandalaRHS1,.mandalaRHS2 {
-		right: -22%;
+		right: -100%;
 	}
 }
 @media (max-width: 515px) {
@@ -181,7 +181,7 @@ h2{
 		left: -30%;
 	}
 	.mandalaRHS1,.mandalaRHS2 {
-		right: -30%;
+		right: -100%;
 	}
 }
 @media (max-width: 430px) {
@@ -192,7 +192,7 @@ h2{
 		left: -30%;
 	}
 	.mandalaRHS1,.mandalaRHS2 {
-		right: -30%;
+		right: -100%;
 	}
 }
 @media (max-width: 425px) {
@@ -204,7 +204,7 @@ h2{
 		left: -36%;
 	}
 	.mandalaRHS1,.mandalaRHS2 {
-		right: -36%;
+		right: -100%;
 	}
 }
 @media (max-width: 400px) {
@@ -216,7 +216,7 @@ h2{
 		left: -28%;
 	}
 	.mandalaRHS1,.mandalaRHS2 {
-		right: -28%;
+		right: -100%;
 	}
 }
 /* Mandala Spinning */
