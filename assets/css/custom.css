@@ -2,7 +2,57 @@
     margin: 0;
     padding: 0;
 }
-
+.overtext h6{
+	z-index: 3;
+}
+.overtext h1{
+	z-index: 3;
+	font-weight: 900;
+}
+.overtext h4{
+	z-index: 3;
+}
+.overtext p{
+	font-size: 3vw;
+	white-space: pre-wrap;
+	line-height: 190%;
+	font-weight: 600;
+	z-index: 3;
+	color: #000;
+}
+@media (max-width: 768px) {
+	.overtext p{
+		font-size: 5vw;
+		color: #000;
+		
+	}
+}
+.imgmax{
+	width:95vw;
+}
+.ftimg{
+	position: absolute;
+	left: 50%;
+	top: 3vh;
+    transform: translate(-50%, 0);
+    padding: 0.5rem;
+	z-index: 2;
+	mask-image: linear-gradient(black, transparent);
+}
+.overfill{
+	background-color: #f2f0efc7;
+	position: absolute;
+    left: 0;
+    transform: translate(0%,-1%);
+    padding-left: 3rem;
+	padding-right: 3rem;
+    text-align: center;
+	z-index: 3;
+}
+.overfilltxt{
+	/*background-color: #f2f0ef;*/
+	
+}
 .line-1{
 	position: relative;
 	top: -10%;  
@@ -168,6 +218,10 @@ h2{
 
 .overall{
 	background-color: #f2f0efa3;
+}
+.overtext{
+	/*z-index: 1;
+	background-color: #f2f0ef;*/
 }
 /* Mandala Positions */
 .mandalaLHS1 {
