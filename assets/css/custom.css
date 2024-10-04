@@ -106,6 +106,32 @@ font-family: Lancelot;
 transform: translateY(-50px);
   transform: translateZ(50px);
 }
+
+/* Spinning */
+
+.mandala {
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-name: mandalaRo;
+}
+.mandala:hover {
+	animation-play-state: paused;
+}
+
+
+@keyframes mandalaRo {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* CARD ROATATE */
+
 .rotate-card-left {
 	-webkit-animation: rotate-card 4s ease-in-out 1s infinite both;
 	        animation: rotate-card 4s ease-in-out 1s infinite both;
