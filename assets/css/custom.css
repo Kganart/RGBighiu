@@ -4,27 +4,26 @@
 }
 
 .line-1{
-    position: relative;
-    top: 50%;  
-    width: 4em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
+	position: relative;
+	top: -10%;  
+	width: 4em;
+	margin: 0 auto;
+	border-right: 2px solid rgba(255,255,255,.75);
+	line-height: 22px;
+	font-size: 180%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 5s steps(11) 1s infinite normal both ,
-             blinkTextCursor 500ms steps(13) infinite normal;
+  animation: typewriter 4.5s steps(45) 1s infinite normal both , blinkTextCursor 500ms steps(45) infinite normal;
 }
 @keyframes typewriter{
   0%{width: 0;}
-  35%{width: 6em;}
-  65%{width: 6em;}
+  40%{width: 4.5em;}
+  60%{width: 4.5em;}
   100%{width: 0;}
 }
 @keyframes blinkTextCursor{
