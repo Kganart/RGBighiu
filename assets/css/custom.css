@@ -12,6 +12,15 @@ body{
 	background: #EFF1F2;
 	font-family: "Lancelot", serif;
 }
+.dropdown-menu{
+	min-width: 2rem;
+}
+.dropdown-item:active{
+	background-color: #F2F0EF;
+}
+a:hover.dropdown-item {
+    background-color: #EFF0F2;
+}
 section{
     width: 100%;
     min-height: 100vh;
