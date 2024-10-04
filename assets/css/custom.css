@@ -118,32 +118,57 @@ h2{
 }
 /* Mandala Positions */
 .mandalaLHS1 {
-	position: fixed;
-	left:-20vw;
-	height: 50vh;
-	width: 50vh;
-	top: 10vh;
+	    position: fixed;
+	    left: -12%;
+	    height: 40%;
+	    width: auto;
+	    top: 5%;
 }
 .mandalaLHS2 {
 	position: fixed;
-	left:-20vw;
-	height: 50vh;
-	width: 50vh;
-	top: 40vh;
+	left: -12%;
+	height: 40%;
+	width: auto;
+	top: 55%;
 }
 .mandalaRHS1 {
 	position: fixed;
-	right:-20vw;
-	height: 50vh;
-	width: 50vh;
-	top: 20vh;
+	right: -12%;
+	height: 40%;
+	width: auto;
+	top: 10%;
 }
 .mandalaRHS2 {
 	position: fixed;
-	right:-20vw;
-	height: 50vh;
-	width: 50vh;
-	top: 70vh;
+	right:-12%;
+	height: 40%;
+	width: auto;
+	top: 70%;
+}
+@media (max-width: 1000px) {
+	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
+		height: 35%;
+	}
+}
+@media (max-width: 767px) {
+	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
+		height: 32%;
+	}
+}
+@media (max-width: 515px) {
+	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
+		height: 28%;
+	} 
+}
+@media (max-width: 420px) {
+	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
+		height: 20%;
+	} 
+}
+@media (max-width: 400px) {
+	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
+		height: 16%;
+	} 
 }
 /* Mandala Spinning */
 
