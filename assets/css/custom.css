@@ -219,9 +219,7 @@ h2{
 	animation-play-state: running;
 	animation-name: mandalaRo;
 }
-.mandala1:hover {
-	animation-direction: reverse;
-}
+
 .mandala2 {
 	width: 100%;
 	height: 100%;
@@ -232,9 +230,7 @@ h2{
 	animation-play-state: running;
 	animation-name: mandalaRo;
 }
-.mandala2:hover {
-	animation-direction: normal;
-}
+
 .mandala3 {
 	width: 100%;
 	height: 100%;
@@ -245,9 +241,7 @@ h2{
 	animation-play-state: running;
 	animation-name: mandalaRo;
 }
-.mandala3:hover {
-	animation-direction: reverse;
-}
+
 
 
 @keyframes mandalaRo {
