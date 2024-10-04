@@ -108,13 +108,13 @@ h2{
 }
 /* Mandala Positions */
 .mandalaLHS1 {
-	left:-20vw
+	left:-20vw;
 	height: 50vh;
 	width: 50vh;
 	top: 10vh;
 }
 .mandalaLHS2 {
-	left:-20vw
+	left:-20vw;
 	height: 50vh;
 	width: 50vh;
 	top: 40vh;
@@ -126,7 +126,7 @@ h2{
 	top: 20vh;
 }
 .mandalaRHS2 {
-	right:-20vw
+	right:-20vw;
 	height: 50vh;
 	width: 50vh;
 	top: 70vh;
