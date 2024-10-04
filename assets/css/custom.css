@@ -182,6 +182,10 @@ h2{
 	}
 }
 @media (max-width: 430px) {
+	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
+		height: 100px;
+		width: 100px;
+	}
 	.mandalaLHS1,.mandalaLHS2{
 		left: -30%;
 	}
