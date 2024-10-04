@@ -14,7 +14,7 @@ body{
 }
 ul.dropdown-menu.show {
     border-color: #545454;
-    background-color: #00000017;
+    background-color: #000000bd;
 }
 a.dropdown-item {
     font-weight: 600;
