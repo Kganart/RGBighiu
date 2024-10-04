@@ -18,12 +18,12 @@
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4.5s steps(45) 1s infinite normal both , blinkTextCursor 500ms steps(45) infinite normal;
+  animation: typewriter 6.5s steps(35) 1s infinite normal both , blinkTextCursor 500ms steps(45) infinite normal;
 }
 @keyframes typewriter{
   0%{width: 0;}
-  40%{width: 4.5em;}
-  60%{width: 4.5em;}
+  20%{width: 4.6em;}
+  80%{width: 4.6em;}
   100%{width: 0;}
 }
 @keyframes blinkTextCursor{
