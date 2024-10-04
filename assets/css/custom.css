@@ -148,6 +148,7 @@ h2{
 @media (max-width: 1024px) {
 	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
 		height: 35%;
+		width: auto;
 	}
 	.mandalaLHS1,.mandalaLHS2{
 		left: -18%;
@@ -170,6 +171,7 @@ h2{
 @media (max-width: 515px) {
 	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
 		height: 28%;
+		width: auto;
 	}
 
 	.mandalaLHS1,.mandalaLHS2{
@@ -190,6 +192,7 @@ h2{
 @media (max-width: 425px) {
 	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
 		height: 28%;
+		width: auto;
 	}
 	.mandalaLHS1,.mandalaLHS2{
 		left: -36%;
@@ -201,6 +204,7 @@ h2{
 @media (max-width: 400px) {
 	.mandalaLHS1,.mandalaLHS2,.mandalaRHS1,.mandalaRHS2 {
 		height: 32%;
+		width: auto;
 	}
 	.mandalaLHS1,.mandalaLHS2{
 		left: -28%;
