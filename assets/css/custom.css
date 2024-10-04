@@ -16,6 +16,7 @@ body{
 	min-width: 2rem;
 }
 .dropdown-item:active{
+	color: #C7BEBA;
 	background-color: #F2F0EF;
 }
 a:hover.dropdown-item {
