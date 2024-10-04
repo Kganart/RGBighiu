@@ -118,6 +118,7 @@ h2{
 }
 /* Mandala Positions */
 .mandalaLHS1 {
+		transform: translateX(0);
 	    position: fixed;
 	    left: -12%;
 	    height: 40%;
@@ -132,6 +133,7 @@ h2{
 	top: 55%;
 }
 .mandalaRHS1 {
+	transform: translateX(0);
 	position: fixed;
 	right: -12%;
 	height: 40%;
@@ -139,6 +141,7 @@ h2{
 	top: 10%;
 }
 .mandalaRHS2 {
+	
 	position: fixed;
 	right:-12%;
 	height: 40%;
