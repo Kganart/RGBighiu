@@ -20,6 +20,11 @@
 	/*z-index: 3;*/
 	color: #000;
 }
+.prep{
+	white-space: pre-wrap;
+	line-height: 190%;
+	font-weight: 600;
+}
 @media (max-width: 768px) {
 	.overtext p{
 		font-size: 5vw;
