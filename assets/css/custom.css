@@ -21,22 +21,72 @@
 	color: #000;
 }
 .prep{
-	font-size: 2.5vw;
+	font-size: 2.3vw;
 	white-space: pre-wrap;
 	line-height: 190%;
 	font-weight: 600;
 }
+.card-title{
+	font-weight: 600;
+}
 .cardsize{
-	width: 60vw
+	width: 60vw;
+	animation: cardsz 1.2s  0s  ease-out both;
 }
 .card-img-top {
     width: 100%;
-    height: 50vw;
+    height: 50vh;
     object-fit: cover;
 }
+.card-title, .card-text{
+	animation: textvis 1.2s  0s  ease-out both;
+}
+/* Animation */
+.card-an{
+	animation: card-ani 3s  1s  ease-in-out both;
+  }
+  .card-an-test{
+	animation: card-ani-test 3s  0.1s  ease-in-out both;
+	object-fit: contain;
+  }
+  @keyframes textvis{
+	0%,20%{opacity: 0;}
+	100%{height: 100%;}
+}
+  @keyframes card-ani{
+		0%,20%{height: 80vh;}
+		30%,85%{height: 50vh;}
+		100%{height: 30vh;}
+  }
+  @keyframes card-ani-test{
+	0%,20%{height: 10vh;}
+	30%,85%{height: 30vh;}
+	100%{height: 40vh;}
+}
+  @keyframes cardsz{
+	0%{width: 1vw;}
+	100%{width: 60vw;}
+}
 @media (max-width: 768px) {
+	.card-title, .card-text{
+		animation: textvis 1.2s  0.5s  ease-out both;
+	}
 	.cardsize{
 		width: 80vw
+	}
+	@keyframes cardsz{
+		0%{width: 1vw;}
+		100%{width: 80vw;}
+	}
+	@keyframes card-ani{
+		0%,20%{height: 45vh;}
+		30%,85%{height: 35vh;}
+		100%{height: 30vh;}
+  	}
+	  @keyframes card-ani-test{
+		0%,20%{height: 10vh;}
+		30%,85%{height: 25vh;}
+		100%{height: 30vh;}
 	}
 	.overtext p{
 		font-size: 5vw;
@@ -410,6 +460,10 @@ h2{
 /* CARD ROATATE */
 
 .rotate-card-left {
+	-webkit-animation: rotate-card 4s ease-in-out 1s infinite both;
+	        animation: rotate-card 4s ease-in-out 1s infinite both;
+}
+.rotate-card-once {
 	-webkit-animation: rotate-card 4s ease-in-out 1s infinite both;
 	        animation: rotate-card 4s ease-in-out 1s infinite both;
 }
