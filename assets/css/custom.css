@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.card{
+	margin-bottom: 45px;
+}
 .overtext h6{
 	/*z-index: 3;*/
 }
