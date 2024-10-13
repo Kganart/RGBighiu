@@ -142,6 +142,8 @@ a:link {
 
 .card-stock-img {
 	height: 100%;
+	border: 2.5mm double rgb(255, 255, 255);
+	border-radius: 4%;
 	/*
 	height:60vh;
 	*/
