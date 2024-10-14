@@ -776,8 +776,8 @@ h2 {
 }
 
 .rotate-card-once {
-	-webkit-animation: rotate-card 4s ease-in-out 1s  both;
-	animation: rotate-card 4s ease-in-out 1s  both;
+		-webkit-animation: rotate-card 1s ease-in-out 1 0s  both;
+		animation: rotate-card 1s ease-in-out 1 0s  both;
 }
 
 .rotate-card-center {
@@ -793,6 +793,10 @@ h2 {
 .rotate-vert-left {
 	-webkit-animation: rotate-vert-center 4s ease-in-out 1s  both;
 	animation: rotate-vert-center 4s ease-in-out 1s  both;
+}
+.rotate-vert-once {
+	-webkit-animation: rotate-vert-center 1s ease-in-out 1 0s  both;
+	animation: rotate-vert-center 1s ease-in-out 1 0s  both;
 }
 
 .rotate-vert-center {
