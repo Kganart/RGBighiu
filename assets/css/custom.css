@@ -7,6 +7,10 @@ a:link {
 	text-decoration: none;
 }
 
+.card-pair:not(:is(.non)){
+	padding-bottom: 5%;
+}
+
 .card {
 	/*margin-bottom: 45px;*/
 }
@@ -22,6 +26,14 @@ a:link {
 
 .overtext h4 {
 	/*z-index: 3;*/
+}
+
+.icons{
+	position: absolute;
+	right:-1%;
+	bottom:4%;
+	font-size: 150%;
+	color:#000;
 }
 
 .overtext p {
@@ -72,8 +84,12 @@ a:link {
 	*/
 	backface-visibility: hidden;
 	width: auto;
+	height: 100%;
+	/*
 	height: 599px;
+	*/
 }
+/*
 @media (max-width: 999px) {
 	.card-contain {
 
@@ -130,7 +146,7 @@ a:link {
 		height: 510px;
 	}
 }
-
+*/
 .card-contain .card {
 	height: 100%;
 }
@@ -140,9 +156,10 @@ a:link {
 
 }
 
+
 .card-stock-img {
 	height: 100%;
-	border: 2.5mm double rgb(255, 255, 255);
+	border: 2.5mm solid rgb(255, 255, 255);
 	border-radius: 4%;
 	/*
 	height:60vh;
@@ -262,6 +279,9 @@ a:link {
 
 	.prep {
 		font-size: 4vw;
+	}
+	.prep.about {
+		font-size: 5vw;
 	}
 }
 
@@ -504,8 +524,13 @@ section {
 @media (max-width: 767px) {
 	.flip-card {
 		background-color: transparent;
+		aspect-ratio: 2.75 / 4.75;
+		width: 100%;
+  		max-width: 300px;
+		/*
 		width: 175px;
 		height: 300px;
+		*/
 		perspective: 1000px;
 		/* Remove this if you don't want the 3D effect */
 	}
@@ -513,9 +538,15 @@ section {
 
 .flip-card {
 	background-color: transparent;
+	/*
 	width: 350px;
 	height: 600px;
+	*/
+	aspect-ratio: 2.75 / 4.75;
+	width: 100%;
+  	max-width: 350px;
 	perspective: 1000px;
+	aspect-ratio: 2.75 / 4.75
 	/* Remove this if you don't want the 3D effect */
 }
 
@@ -538,6 +569,7 @@ section {
 }
 
 .card-front, .card-back {
+	aspect-ratio: 2.75 / 4.75;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -553,7 +585,9 @@ h2 {
 	font-size: 32px;
 	text-align: center;
 	letter-spacing: 2px;
+	/*
 	text-transform: uppercase;
+	*/
 	transform: translateY(-50px);
 	transform: translateZ(50px);
 }
