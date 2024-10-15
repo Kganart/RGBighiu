@@ -1,11 +1,29 @@
-// let cards = document.querySelectorAll('.boxa');
-/*
-document.addEventListener('mousemove', function (e) {
-  let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
-  let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+bigChange=document.getElementById('changeSize')
+trackNum=0
 
-  cards.forEach(function(card) {
-    card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
-  });
-});
-*/
+//bigChange.addEventListener("animationend", () => bigChange.classList.remove('card-expand'));
+
+//switchFunction = () => bigChange.classList.add('card-expand'); //add the class to play animation
+
+function switchFunction() {
+  if (trackNum==0) {
+    bigChange.classList.remove("card-an");
+    bigChange.classList.add("card-expand");
+    trackNum=1;
+    return
+  }
+  if (trackNum==1) {
+    bigChange.classList.remove("card-expand");
+    bigChange.classList.add("card-close");
+    trackNum=2;
+    return
+  }
+  else if (trackNum==2) {
+    bigChange.classList.remove("card-close");
+    bigChange.classList.add("card-expand");
+    trackNum=1;
+    
+    return
+  }
+
+}
