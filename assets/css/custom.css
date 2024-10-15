@@ -170,6 +170,12 @@ a:link {
 .card-an {
 	animation: card-ani 3s 1s ease-in-out both;
 }
+.card-expand{
+	animation: card-expand-ani 1s 0s ease-in-out both;
+}
+.card-close{
+	animation: card-close-ani 1s 0s ease-in-out both;
+}
 
 .card-an-test {
 	animation: card-ani-test 3s 0.1s ease-in-out both;
@@ -196,6 +202,22 @@ a:link {
 	}
 
 	100% {
+		height: 30vh;
+	}
+}
+@keyframes card-expand-ani {
+	0%{
+		height: 30vh;
+	}
+	100%{
+		height: 100vh;
+	}
+}
+@keyframes card-close-ani {
+	0%{
+		height: 100vh;
+	}
+	100%{
 		height: 30vh;
 	}
 }
@@ -253,6 +275,22 @@ a:link {
 		}
 
 		100% {
+			height: 30vh;
+		}
+	}
+	@keyframes card-expand-ani {
+		0%{
+			height: 30vh;
+		}
+		100%{
+			height: 55vh;
+		}
+	}
+	@keyframes card-close-ani {
+		0%{
+			height: 55vh;
+		}
+		100%{
 			height: 30vh;
 		}
 	}
