@@ -10,9 +10,27 @@ a:link {
 .card-pair:not(:is(.non)){
 	padding-bottom: 5%;
 }
-
+.book-store{
+	width: 10em;
+	height: 15em;
+}
+.book{
+	background: linear-gradient(to right, rgb(53, 53, 53) 3px, rgba(255, 255, 255, 0.196) 5px, rgba(255, 255, 255, 0.25) 7px, rgba(255, 255, 255, 0.25) 10px, transparent 12px, transparent 16px, rgba(255, 255, 255, 0.25) 17px, transparent 22px), url(../../assets/images/book.jpg);
+	box-shadow: 0 0 5px -1px rgb(255, 255, 255), inset -1px 1px 2px rgba(255, 255, 255, 0.5);
+	margin: auto;
+	border-radius: 5px;
+	background-size:cover;
+   width: 100%;
+   height: 100%;
+}
+.bottom-block{
+	padding-top: 3vh;
+}
 .card {
-	/*margin-bottom: 45px;*/
+	margin-bottom: 3vh;
+}
+.footer-contain{
+	padding-top: 3vh;
 }
 
 .overtext h6 {
@@ -28,13 +46,18 @@ a:link {
 	/*z-index: 3;*/
 }
 
-.icons{
+.icons.instab{
 	position: absolute;
 	right:-1%;
 	bottom:4%;
 	font-size: 150%;
 	color:#000;
 }
+.about-icons{
+	font-size: 200%;
+	color:#fff;
+}
+
 
 .overtext p {
 	font-size: 3vw;
@@ -244,6 +267,9 @@ a:link {
 }
 
 @media (max-width: 768px) {
+	.about-icons{
+		font-size: 180%;
+	}
 	.card-title:not(:is(.non)), .card-text:not(:is(.non)) {
 		animation: textvis 1.2s 0.5s ease-out both;
 	}
