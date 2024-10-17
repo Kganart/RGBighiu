@@ -1,4 +1,5 @@
 // FOOTER
+year = new Date().getFullYear();
 class Footer extends HTMLElement {
   constructor() {
     super();
@@ -32,7 +33,7 @@ class Footer extends HTMLElement {
                         </div>
                     </a>
                 </div>
-                <h5 class="text-center card-title bottom-block">© 2024 R.G. Bighiu. All rights reserved.</h5>
+                <h5 class="text-center card-title bottom-block">© $year R.G. Bighiu. All rights reserved.</h5>
             </div>
         </div>
     </div>
