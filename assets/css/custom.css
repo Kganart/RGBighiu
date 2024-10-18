@@ -2,9 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-html{
-	background: #000;	
-}
+
 .card {
     --bs-card-spacer-y: 0rem;
     --bs-card-spacer-x: 0rem;
