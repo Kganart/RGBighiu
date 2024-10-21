@@ -7,6 +7,28 @@
     --bs-card-spacer-y: 0rem;
     --bs-card-spacer-x: 0rem;
 }
+
+
+  @font-face {
+    font-family: 'kremlin_orthodox_churchRg';
+    src: url('../fonts/kremlinorthodoxchurch-webfont.woff2') format('woff2'),
+         url('../fonts/kremlinorthodoxchurch-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'storybookregular';
+    src: url('../fonts/storybook-webfont.woff2') format('woff2'),
+         url('../fonts/storybook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 a:link {
 	text-decoration: none;
 }
@@ -718,45 +740,37 @@ h2 {
 .mandala1 {
 	width: 100%;
 	height: 100%;
-	animation-timing-function: linear;
-	animation-duration: 21s;
-	animation-direction: normal;
-	animation-iteration-count: infinite;
-	animation-play-state: running;
-	animation-name: mandalaRo;
+	animation: mandalaRo 21s linear infinite normal;
 }
 
 .mandala2 {
 	width: 100%;
 	height: 100%;
-	animation-timing-function: linear;
-	animation-duration: 28s;
-	animation-iteration-count: infinite;
-	animation-direction: reverse;
-	animation-play-state: running;
-	animation-name: mandalaRo;
+	animation: mandalaRo 24s linear infinite reverse;
 }
 
 .mandala3 {
 	width: 100%;
 	height: 100%;
-	animation-timing-function: linear;
-	animation-duration: 15s;
-	animation-iteration-count: infinite;
-	animation-direction: normal;
-	animation-play-state: running;
-	animation-name: mandalaRo;
+	animation: mandalaRo 15s linear infinite alternate;
 }
-
 
 
 @keyframes mandalaRo {
 	0% {
-		transform: rotate(0);
+		transform: rotate(0) scale(0.5);
 	}
-
+	25% {
+		transform: rotate(90deg) scale(0.8);
+	}
+	50% {
+		transform: rotate(180deg) scale(1.2);
+	}
+	75% {
+		transform: rotate(270deg) scale(0.83);
+	}
 	100% {
-		transform: rotate(360deg);
+		transform: rotate(360deg) scale(0.5);
 	}
 }
 
