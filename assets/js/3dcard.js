@@ -175,3 +175,51 @@ function switchFunction() {
   }
 
 }
+
+// Shake book
+// Select all card pairs
+const bookPairs = document.querySelectorAll(".book-store");
+
+// Intersection Observer options
+const options1 = {
+  root: null, // Use the viewport as the root
+  rootMargin: "0px",
+  threshold: 0.0001, // Trigger when the slightest part of the card is visible
+};
+
+// Callback function for the Intersection Observer
+const observerCallback1 = (entries) => {
+  const screenWidth = window.innerWidth;
+
+  entries.forEach((entry) => {
+    const book = entry.target.querySelector(".book");
+
+
+      // For screens 767px or larger, apply respective animations
+      if (entry.isIntersecting) {
+        if (book) {
+          book.classList.add("shake");
+        }
+      } else {
+        // Remove respective classes when out of view
+        if (book) {
+          book.classList.remove("shake");
+
+        }
+      }
+  });
+};
+
+// Create the Intersection Observer instance
+const observer1 = new IntersectionObserver(observerCallback1, options1);
+
+// Observe each card pair
+bookPairs.forEach((bookPair) => observer1.observe(bookPair));
+
+// Optional: You could add a resize event listener to re-evaluate the logic when the screen is resized
+window.addEventListener("resize", () => {
+  // Re-run the observer callback on resize (to handle screen size changes dynamically)
+  observer1.disconnect(); // Stop observing
+  bookPairs.forEach((bookPair) => observer1.observe(bookPair)); // Re-observe after resize
+});
+
