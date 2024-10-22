@@ -131,6 +131,7 @@ a:link {
 
 }
 .card-contain .card {
+	box-shadow: inset 0 0 6px 0px #000000b3;
 	border-color: #707070 #707070 #7e7e7e #343434;
     content: "";
     position: absolute;
