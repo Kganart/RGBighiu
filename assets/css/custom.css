@@ -31,10 +31,25 @@
     font-weight: normal;
     font-style: normal;
 }
-
-a:link {
-	text-decoration: none;
+.pre-author{
+	color: #36454F;
 }
+.author{
+	color: #343434;
+}
+a:link { 
+	text-decoration: none; 
+  } 
+  a:visited { 
+	text-decoration: none; 
+  } 
+  a:hover { 
+	text-decoration: none; 
+  } 
+  a:active { 
+	text-decoration: none; 
+  }
+  
 
 .card-pair:not(:is(.non)){
 	padding-bottom: 5%;
