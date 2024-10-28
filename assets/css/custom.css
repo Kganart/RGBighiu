@@ -669,7 +669,7 @@ h2 {
 }
 
 .overall {
-	background: linear-gradient(-45deg, #ffffff8c, #ffcdcd94, #baffee7a, #f8d4ff7d);
+	background: linear-gradient(-45deg, #ffffff8c, #fff4f494, #ffffff7a, #f8d4ff7d);
 	  background-size: 400% 400%;
 	  animation: gradient 8s ease infinite;
 	  /*
