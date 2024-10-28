@@ -56,7 +56,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
 <nav data-bs-theme="dark" class="navbar navbar-expand-lg px-2 mb-2 sticky-top">
         <div class="container-fluid">
-            <a class="justify-content-start navbar-brand align-start line-1 anim-typewriter" href="#">R.G. Bighiu</a>
+            <a class="justify-content-start navbar-brand align-start line-1 anim-typewriter" href="https://rgbighiu.com">R.G. Bighiu</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@ class Header extends HTMLElement {
                 <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 350px;">
                     <li class="nav-item">
                         <a class="justify-content-end text-center nav-link" aria-current="page"
-                            href="index.html">Home</a>
+                            href="https://rgbighiu.com">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-center justify-content-end" href="#" role="button"
@@ -74,30 +74,30 @@ class Header extends HTMLElement {
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item text-center" href="essays.html">Essays</a>
+                                <a class="dropdown-item text-center" href="https://rgbighiu.com/essays">Essays</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item text-center" href="poems.html">Poems</a>
+                                <a class="dropdown-item text-center" href="https://rgbighiu.com/poems">Poems</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item text-center" href="short-stories.html">Short Stories</a>
+                                <a class="dropdown-item text-center" href="https://rgbighiu.com/short-stories">Short Stories</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item text-center" href="cards.html">All</a>
+                                <a class="dropdown-item text-center" href="https://rgbighiu.com/cards">All</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="justify-content-end text-center nav-link" href="about.html">About</a>
+                        <a class="justify-content-end text-center nav-link" href="https://rgbighiu.com/about">About</a>
                     </li>
                 </ul>
             </div>
