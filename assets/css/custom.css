@@ -9,9 +9,9 @@ html, body {
   }
   
   body {
-	  background: linear-gradient(-135deg, #ffffff, #edacff, #ffd9b3, #b9ffd1);
+	  background: linear-gradient(-135deg, #ff0000, #edacff, #ffd9b3, #b9ffd1);
 	  background-size: 400% 400%;
-	  animation: gradient 15s ease infinite;
+	  animation: gradient 10s ease infinite;
   }
   
   @keyframes gradient {
@@ -30,7 +30,7 @@ html, body {
 	z-index: 1;
 	background: linear-gradient(-45deg, #ffffff6f, #ffacac21, #b3ffec2f, #d900ff2b);
 	  background-size: 400% 400%;
-	  animation: gradient 15s ease infinite;
+	  animation: gradient 5s ease infinite;
 	/*background-color: #00000045;*/
 }
 
@@ -669,7 +669,11 @@ h2 {
 }
 
 .overall {
-	background-color: #f2f0efa3;
+	background: linear-gradient(-45deg, #ffffff8c, #ffcdcd94, #baffee7a, #f8d4ff7d);
+	  background-size: 400% 400%;
+	  animation: gradient 8s ease infinite;
+	  /*
+	background-color: #f2f0efa3;*/
 }
 
 .overtext {
