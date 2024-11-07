@@ -111,7 +111,7 @@ html, body {
 	/*background-color: #000;*/
 	background: conic-gradient(from var(--angle),#5c3ca0,#00A67B,#E5C9CD,#5c3ca0);
 	
-	animation:  easeText 1.6s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1 forwards,spin 3s linear infinite normal;
+	animation:  easeText 1.6s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1 forwards,spin 3s linear 4 normal;
 }
 
 @keyframes spin {
@@ -135,7 +135,7 @@ html, body {
 	font-size: 5rem;
 	font-weight: 100;
 	text-align: center;
-	animation: easeText 0.6s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1 forwards,spin 3s linear infinite normal;
+	animation: easeText 0.6s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1 forwards,spin 3s linear 4 normal;
 }
 @keyframes easeText {
 	from{
