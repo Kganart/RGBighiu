@@ -323,6 +323,10 @@ a:link {
     inset: 0;
 	border: 2px solid #636363;
 	border-radius: 12px;
+	background-color: #FAF9F6;
+	border: 1px solid transparent;
+	background: repeating-linear-gradient(#FAF9F6, #FAF9F6) padding-box, repeating-linear-gradient(-45deg, #a8a888 0, #a8a888 25%, #d8d8c7 0, #d8d8c7 50%) 0 / 3.6em 3.6em;
+  animation: march 10s linear infinite;
 	/*
     border: 1.1px solid #818181;
 	*/
@@ -342,6 +346,7 @@ a:link {
   border: 1px solid black;
   border-radius: 12px;
 
+
 }
 
 .card-stock .card-body {
@@ -349,14 +354,34 @@ a:link {
 
 }
 
-.card-stock-img {
+.card-stock-img, .card-img-con {
 	height: 100%;
-    padding: 1mm 2mm;
     /* border: 2.5mm solid rgb(0 0 0); */
-    border-radius: 36px;
-
+    border-radius: 8px;
+    position: relative;
+}
+.card-img-con {
+	height: 100%;
+    margin: 1.5mm;
+    /* border: 2.5mm solid rgb(0 0 0); */
+    border-radius: 6px;
+    position: relative;
+}
+.card-img-con:after {
+	content: '';
+	position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0px 0px 8px 9px #faf9f6;
+  border-radius: 0;
+  top: 0;
+  left: 0;
 }
 
+@keyframes march { to { background-position: 100% 100%; } }
+.ants {
+  
+}
 /* Animation */
 .card-an {
 	animation: card-ani 1s 1s ease-in-out both;
